@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salle de Mariage Perla | Martil – Luxe & Élégance</title>
+    <meta name="description" content="Salle de mariage Perla à Martil. Décor floral, trônes royaux, salle de réception haut de gamme pour vos mariages, Sbou3 et événements privés.">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        h1, h2, h3 { font-family: 'Playfair Display', serif; }
+        .text-rose-gold {
+            background: linear-gradient(135deg, #f9c5d1, #e8a2b8, #d4849b);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .hero-overlay {
+            background: linear-gradient(135deg, rgba(0,0,0,0.75) 0%, rgba(0,0,0,0.4) 100%);
+        }
+    </style>
+</head>
+<body class="bg-zinc-950 text-zinc-200">
+
+    <!-- FLOATING WHATSAPP -->
+    <a href="https://wa.me/212690013588?text=Bonjour%20Perla,%20je%20souhaite%20une%20visite%20de%20la%20salle"
+       target="_blank"
+       class="fixed bottom-6 right-6 z-50 bg-green-500 hover:bg-green-400 text-white rounded-full p-4 shadow-2xl transition-all">
+        <i class="fab fa-whatsapp text-3xl"></i>
+    </a>
+
+    <!-- NAVIGATION -->
+    <nav class="fixed w-full bg-black/80 backdrop-blur-xl z-40 border-b border-pink-800/40">
+        <div class="max-w-7xl mx-auto px-6 py-5 flex justify-between items-center">
+            <div class="flex items-center gap-3">
+                <i class="fas fa-gem text-3xl text-pink-400"></i>
+                <span class="text-3xl font-bold text-rose-gold">Perla</span>
+            </div>
+
+            <div class="hidden md:flex gap-10 text-sm uppercase tracking-widest font-medium">
+                <a href="#services" class="hover:text-pink-300 transition">Prestations</a>
+                <a href="#gallery" class="hover:text-pink-300 transition">Galerie</a>
+                <a href="#video" class="hover:text-pink-300 transition">Vidéo</a>
+                <a href="#contact" class="hover:text-pink-300 transition">Contact</a>
+            </div>
+
+            <a href="https://wa.me/212690013588?text=Visite%20de%20la%20salle%20Perla"
+               target="_blank"
+               class="hidden md:flex bg-gradient-to-r from-pink-500 to-rose-600 hover:from-pink-600 hover:to-rose-700 text-white px-7 py-3 rounded-full font-semibold items-center gap-2 transition-all">
+                <i class="fab fa-whatsapp"></i>
+                <span>Réserver une visite</span>
+            </a>
+
+            <button id="menu-toggle" class="md:hidden text-3xl">☰</button>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <header class="relative min-h-screen flex items-center justify-center text-center">
+        <div class="absolute inset-0 hero-overlay z-0"></div>
+        <div class="absolute inset-0 bg-[url('images/hero.jpg')] bg-center bg-cover bg-fixed z-[-1]"></div>
+
+        <div class="relative z-10 max-w-5xl px-6 pt-20">
+            <h1 class="text-6xl md:text-7xl lg:text-8xl font-black leading-none mb-6">
+                Salle de Mariage<br><span class="text-rose-gold">Perla</span>
+            </h1>
+            <p class="text-2xl md:text-3xl text-pink-100 max-w-3xl mx-auto mb-12">
+                Luxe, fleurs roses & rouges et raffinement à Martil
+            </p>
+
+            <a href="https://wa.me/212690013588?text=Bonjour,%20je%20souhaite%20visiter%20Perla" 
+               class="inline-block bg-white text-zinc-900 px-12 py-5 rounded-full text-xl font-semibold hover:scale-105 transition-all">
+                Réserver une visite
+            </a>
+        </div>
+    </header>
+
+    <!-- SERVICES -->
+    <section id="services" class="py-28 bg-zinc-900">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center mb-20">
+                <h2 class="text-5xl font-bold mb-6">L'Art de Recevoir</h2>
+            </div>
+            <div class="grid md:grid-cols-3 gap-10">
+                <div class="bg-zinc-800 rounded-3xl p-10 hover:-translate-y-2 transition-all">
+                    <i class="fas fa-crown text-6xl text-rose-400 mb-6"></i>
+                    <h3 class="text-3xl font-semibold mb-4">Trônes & Amariya</h3>
+                    <p class="text-zinc-400">Espace royal avec trônes majestueux et décoration florale.</p>
+                </div>
+                
+                <div class="bg-zinc-800 rounded-3xl p-10 hover:-translate-y-2 transition-all">
+                    <i class="fas fa-chair text-6xl text-pink-400 mb-6"></i>
+                    <h3 class="text-3xl font-semibold mb-4">Réception Luxueuse</h3>
+                    <p class="text-zinc-400">Salle élégante avec mobilier haut de gamme et éclairage raffiné.</p>
+                </div>
+                
+                <div class="bg-zinc-800 rounded-3xl p-10 hover:-translate-y-2 transition-all">
+                    🌸 <i class="fas fa-flower text-6xl text-rose-400 mb-6"></i>
+                    <h3 class="text-3xl font-semibold mb-4">Décoration Florale</h3>
+                    <p class="text-zinc-400">Compositions florales roses et rouges, arches fleuries et centres de table romantiques.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- VIDÉO -->
+    <section id="video" class="py-28 bg-black">
+        <div class="max-w-5xl mx-auto px-6 text-center">
+            <h2 class="text-5xl font-bold mb-12">Découvrez Perla en Vidéo</h2>
+            <div class="aspect-video bg-zinc-900 rounded-3xl overflow-hidden border border-pink-900/50">
+                <video controls class="w-full h-full" poster="images/poster.jpg">
+                    <source src="video.mp4"video/mp4                    Votre navigateur ne supporte pas la vidéo.
+                </video>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- GALLERY -->
+    <section id="gallery" class="py-28 bg-zinc-900">
+        <div class="max-w-7xl mx-auto px-6">
+            <h2 class="text-5xl font-bold text-center mb-16">Galerie Photo</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <img src="salle.jpg" alt="Salle Perla" class="rounded-3xl w-full h-80 object-cover hover:scale-105 transition">
+                <img src="reception.jpg" alt="Réception Perla" class="rounded-3xl w-full h-80 object-cover hover:scale-105 transition">
+                <img src="trone.jpg" alt="Trône Perla" class="rounded-3xl w-full h-80 object-cover hover:scale-105 transition">
+                <img src="Fleure.jpg" alt="Fleurs Perla" class="rounded-3xl w-full h-80 object-cover hover:scale-105 transition">
+
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT & MAP -->
+    <footer id="contact" class="bg-zinc-950 py-24">
+        <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-16">
+            <div>
+                <h2 class="text-5xl font-bold text-rose-gold mb-8">Salle de Mariage Perla</h2>
+                <p class="text-2xl text-pink-400 font-medium">06 90 01 35 88</p>
+                <p class="mt-4">37 Rue Ghana, Martil</p>
+                
+                <a href="https://wa.me/212690013588" target="_blank" class="mt-8 inline-flex items-center gap-3 bg-green-600 hover:bg-green-500 text-white px-8 py-4 rounded-full">
+                    <i class="fab fa-whatsapp text-2xl"></i>
+                    <span>Envoyer un message</span>
+                </a>
+            </div>
+            
+            <!-- Nouveau lien Google Maps -->
+            <div>
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3234.5!2d-5. something!3d35. something!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2z!5e0!3m2!1sfr!2sma!4v1746212345678"
+                    width="100%" 
+                    height="380" 
+                    style="border:0; border-radius: 20px;" 
+                    allowfullscreen="" 
+                    loading="lazy">
+                </iframe>
+                <p class="text-center mt-4">
+                    <a href="https://maps.app.goo.gl/pHf1Cap8FyhB7w71A" target="_blank" 
+                       class="text-pink-400 hover:text-pink-300 underline">
+                        📍 Voir sur Google Maps
+                    </a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
